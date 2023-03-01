@@ -51,7 +51,10 @@ class String:
         print("%d Consonants"%(self.consonants))
         print("%d Spaces"%self.spaces)
 
-s = String()
-s . getstr()
-s . execute()
-s . display()
+def Run():
+    s = String()
+    s . getstr()
+    s . execute()
+    s . display()
+
+Run()
